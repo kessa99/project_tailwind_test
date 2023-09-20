@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="../static/js/navbar.js"></script>
+    <link rel="stylesheet" href="../static/css/animationtext.css">
+
+    <title>Document</title>
+</head>
+
+
+<body id="top" class="">
+
+
+     <header 
+        class="bg-white z-50 fixed top-0 w-full shadow"
+    >
+
+
+        <nav 
+            id="main-nav" 
+            class="bg-white max w-5xl mx-auto p-6 flex items-center justify-between"
+        >
+
+
+            <a 
+                href="top" 
+                class="flex" 
+                aria-label="Page d'accueil du site"
+            >
+
+
+                <img 
+                    src="../static/img/" 
+                    class="hidden md:w-7 md:inline md:mr-4" 
+                    alt=""
+                >
+
+                <span 
+                    class="text-lg lg:text-xl" 
+                    aria-hidden="true"
+                >
+
+
+                    Tax <strong><span class="text-rose-600">IQ</span></strong>
+                </span>
+            </a>
+            
+            <button 
+                aria-label="toggle button" 
+                aria-expanded="false"
+                id="menu-btn"
+                class="cursor-pointer w-7 md:hidden text-xs"
+            >
+            <i class='bx bxs-objects-horizontal-right'></i>
+            </button>
+            
+            <ul id="toggle-menu" class=" absolute top-full left-0 -translate-y-full -z-10 text-gray-800 borde-b border-gray-200 flex flex-col items-center md:static md:z-10 md:w-win md:transform-none md:border-none md:flex-row">
+
+                <li class="py-4 md:py-0 md:mr-6">
+                    <a href="#" class="text-sm uppercase font-semibold w-full hover:text-rose-600">Accueil </a>
+                </li>
+                <li class="py-4 md:py-0 md:mr-6">
+                    <a href="#" class="text-sm uppercase font-semibold w-full hover:text-rose-600">Services</a>
+                </li>
+                <li class="py-4 md:py-0 md:mr-6">
+                    <a href="#" class="text-sm uppercase font-semibold w-full hover:text-rose-600">Informations</a>
+                </li>
+                <li class="py-4 md:py-0 md:mr-6">
+                    <a href="#" class="text-sm uppercase font-semibold w-full hover:text-rose-600">aide</a>
+                </li>
+                <li class="py-4 md:py-0 md:mr-6">
+                    <a href="#" class="text-sm uppercase font-semibold w-full hover:text-rose-600">Connexion</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section">
+        <div class=" md:flex rounded-xl p-8 md:p-0 dark:bg-slate-800 bg-[url('../static/img/back.png')]  bg-no-repeat bg-center ">
+
+            <div class="mt-20 pt-20 relative">
+                <img src="../static/img/man.png" alt="">
+                <img src="../static/img/elements.png" class="absolute left-0 top-0">
+            </div> 
+            <div class="container">
+                <p>
+                    <span> 
+                        Bienvenue sur  axIQ?
+                    </span>
+                </p>
+                <p>
+                    <span>Votre Solution Fiscale Intelligente</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="text-3xl font-semibold text-gray-800 mb-6 text-center py-8">
+        Pourquoi choisir <br>  Tax<span class="text-rose-600">IQ </span>
+    </h1>
+
+    <section>
+        <div class="grid grid-cols-3 gap-4 mt-20">
+
+            <div class="text-justify col-span-2 bg-red-200 py-8 bg-[url('../static/img/why2.svg')]  bg-no-repeat bg-center rounded-lg">
+                <h1 class="text-center"><span class="text-rose-600">Calcul Précis d'Impôts </span> <br> TaxIQ effectue des calculs fiscaux précis en fonction de votre <br> 
+                    situation financière, en prenant en compte les dernières réglementations fiscales</h1>
+            </div>
+            <div class="bg-orange-100 rounded-lg bg-[url('../static/img/why2.svg')]  bg-no-repeat bg-center text-justify py-8 ">
+                <h1 class="text-center"><span class="text-rose-600">Calcul Précis d'Impôts </span> <br> Accédez à des guides fiscaux complets et à des conseils personnalisés pour optimiser vos déclarations fiscales et maximiser vos économies</h1>
+            </div>
+            <div class=" rounded-lg bg-amber-100 bg-[url('../static/img/calendarnew.svg')]  bg-no-repeat bg-center py-8 " >
+                <h1 class="text-center"> <span class="text-rose-600" >Calendrier Fiscal:</span> <br> Recevez des rappels de dates limites pour ne jamais manquer une échéance fiscale importante.</h1>
+            </div>
+            <div class="rounded-lg col-span-2 bg-lime-200 bg-[url('../static/img/guide.svg')]  bg-no-repeat bg-center py-8 ">
+                <h1 class="text-center">
+                    <span class="text-rose-600">Guides et Conseils : </span> <br> Accédez à des guides fiscaux complets et à des conseils personnalisés pour optimiser vos déclarations fiscales et maximiser vos économies.</h1>
+            </div>
+          </div>
+    </section>
+
+    <h1 class="text-3xl font-semibold text-gray-800 mb-6 text-center py-8">
+       F<span class="text-rose-600 py-8">o</span>rum
+    </h1>
+    
+    <section>
+        <div class="flex ...">
+            <div class="w-1/2 ... ">
+                <img src="../static/img/bm.svg" class="h-15"> 
+            </div>
+            <div class="w-1/2 ... ">
+               <span class="text-3xl font-semibold text-gray-800 mb-6 text-center py-8">
+                Une communauté passionnée. 
+               </span> <br> 
+               Rencontrez des personnes partageant des informations et des conseils sur tous les aspects de la fiscalité.<br>
+            
+               <span class="text-3xl font-semibold text-gray-800 mb-6 text-center py-8">
+                Réponses à vos questions.
+               </span> 
+               <br>  Obtenez des réponses à vos questions sur la déclaration de revenus, les déductions fiscales, les changements de réglementation et plus encore.<br>
+                
+               <span class="text-3xl font-semibold text-gray-800 mb-6 text-center py-8">
+                Expertise disponible.
+               </span> <br> 
+               Nos membres expérimentés et nos experts fiscaux sont là pour vous guider dans le monde complexe des impôts.<br> 
+                
+               <span class="text-3xl font-semibold text-gray-800 mb-6 text-center py-8">
+                Partagez vos connaissances.
+               </span> <br>
+               Partagez vos expériences et astuces pour aider les autres membres.<br>
+                
+               <a href="#" class="inline-flex items-center py-4 px-3 bg-blue-700 rounded-lg">
+                Rejoignez-nous
+               </a>
+                
+            </div>
+          </div>
+    </section>
+
+    <h1 class="text-3xl font-semibold text-gray-800 mb-6 text-center py-8">
+        Imp<span class="text-rose-600 py-8">o</span>t
+    </h1>
+
+    <section class="bg-[url('../static/img/sk.png')]  bg-no-repeat bg-center flex grid gap-4 grid-cols-2 grid-rows-3 rounded-lg m-4">
+        <div>
+            <h2 class="text-3xl font-semibold text-gray-800 mb-6 text-center">
+            Commencez par faire vos calcul d'impot rapidement et efficacement
+        </h2>
+        </div>
+        
+        <div class="">
+            <a href="#" class="bg-amber-100 inline-flex items-center py-4 px-3 bg-blue-700 rounded-lg text-center">Impot sur Revenu</a>
+        </div>
+        <div>
+            <a href="#" class="bg-blue-700 inline-flex items-center py-4 px-3 bg-blue-700 rounded-lg text-center">
+                Revenu d'affaire
+            </a>
+        </div>
+        <div>
+            <a href="#"  class="bg-orange-100 inline-flex items-center py-4 px-3 bg-blue-700 rounded-lg text-center">
+                Impot sur salaire
+            </a>
+            
+        </div>
+        <div>
+            <a href="#"  class="bg-red-200 inline-flex items-center py-4 px-3 bg-blue-700 rounded-lg text-center">
+                Retenu sur loyer
+            </a>
+        </div>
+        <div>
+            <a href="#" class="bg-amber-100 inline-flex items-center py-4 px-3 bg-blue-700 rounded-lg text-center">
+                taxe d'habitation
+            </a>
+        </div>
+        <div>
+            <a href="#" class="bg-blue-700 inline-flex items-center py-4 px-3 bg-blue-700 rounded-lg text-center px-8">
+                TPU
+            </a>
+        </div>
+        <div>
+            <a href="#" class="bg-blue-700 inline-flex items-center py-4 px-3 bg-blue-700 rounded-lg text-center px-8">
+                Patente
+            </a>
+        </div>
+    </section>
+    <!-- <section class="">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-6">Bienvenue sur TaxIQ : Votre Solution Fiscale Intelligente</h2>
+            <p class="text-lg text-gray-600 mb-8">
+                    TaxIQ est bien plus qu'une simple calculatrice d'impôts. C'est une application intelligente conçue pour simplifier la gestion de vos obligations fiscales, que vous soyez un particulier, un travailleur indépendant ou une petite entreprise. Avec TaxIQ, vous pouvez calculer vos impôts en toute confiance, en toute simplicité et en toute sécurité.
+            </p>
+            <p class="text-lg text-gray-600 mb-8">
+                Notre objectif est de vous offrir une expérience fiscale sans tracas. Si vous avez des questions sur notre application, besoin d'aide pour remplir vos déclarations d'impôts ou si vous souhaitez discuter avec d'autres utilisateurs, notre forum est là pour vous. Le forum TaxIQ est un espace communautaire où vous pouvez obtenir des informations, partager vos expériences et interagir avec d'autres membres de la communauté TaxIQ.
+            </p>
+            <a href="/forum" class="text-rose-600 font-semibold hover:underline">Découvrir le Forum</a>
+        </div>
+    </section> -->
+</body>
+</html>

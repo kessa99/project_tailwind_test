@@ -1,0 +1,7 @@
+.essaie{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
